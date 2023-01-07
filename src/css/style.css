@@ -1,0 +1,162 @@
+#root{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+h1{
+    color: rgb(53, 53, 53);
+}
+input{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(71, 71, 71);
+    color: white;
+    padding-left:8px ;
+    font-size: 30px;
+}
+ul{
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    /* background-color: rgb(204, 204, 204); */
+    padding: 20px;;
+    border-radius: 20px;;
+
+}
+ul > h2{
+    color: rgb(255, 141, 47)
+}
+ul li{
+    margin-top: 10px;;
+    background-color:rgb(172, 172, 172);
+    width: 100%;
+    
+    max-height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 1px 5px rgb(255, 185, 35);
+    transition: all 0.2s;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+ul li:hover{
+    box-shadow: none;
+}
+ul li p{
+    width: 70%;
+    font-size:25px;
+}
+.completada{
+    text-decoration: line-through;
+}
+.completa{
+    color: rgb(75, 75, 75);
+    font-size: 35px;
+    width: 5%;
+    
+    
+}
+.completad{
+    color:greenyellow;
+}
+.quitar{
+    font-size: 23px;
+    margin: -40px 0px 0 0;
+    color: rgb(243, 60, 60);
+    width: 5%;
+    
+}
+
+.btn-agregar{
+    width:55px;
+    height:55px;
+    background: rgb(255, 131, 30);
+    border-radius: 50%;
+    border:none;
+    margin: 40px 0px 0px 0px;
+    float: right;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+.abrirModal{
+    font-size: 35px;
+    margin: 0px;
+    transition: all 0.2s;
+}
+.cerrarModal{
+    transform: rotate(45deg);
+}
+.modalBackground{
+    background:rgba(0, 0, 0, 0.582);
+    position:fixed;
+    top: -10px;
+    left: -10px;
+    bottom: -10px;
+    right: -10px;
+    display: flex;
+    justify-content: center;
+
+    color: #fff;
+}
+.formulario{
+    width: 70%;
+    height: auto;
+    margin-top:100px;
+    text-align: center;
+}
+.formulario > h2{
+    color: rgb(255, 141, 47);
+    font-size: 30px;;
+}
+.formulario .cerrar{
+    margin-right: 50px;
+    background-color:rgb(255, 68, 68);
+}
+.formulario> textarea{
+    width: 100%;
+    border:none;
+    border-radius:15px;
+    height: 150px;
+    padding: 10px;
+    font-size:25px;
+    margin-top: 10px;
+    resize: none;
+    outline: none;
+    background-color:rgb(172, 172, 172);
+}
+.formulario > button{
+    height: 50px;
+    width: auto;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px;;
+    border-radius:10px;
+    border: none;
+    background-color: rgb(192, 253, 50);
+
+}
+@media screen and (min-width: 450px){
+    #root{
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+        
+        
+    }
+    .formulario{
+        width: 40%;
+        height: auto;
+        margin-top:100px;
+        text-align: center;
+    }
+
+}
