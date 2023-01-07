@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/app-tareas-react/static/css/main.957599fa.css",
-    "main.js": "/app-tareas-react/static/js/main.57f623bf.js",
-    "index.html": "/app-tareas-react/index.html",
-    "main.957599fa.css.map": "/app-tareas-react/static/css/main.957599fa.css.map",
-    "main.57f623bf.js.map": "/app-tareas-react/static/js/main.57f623bf.js.map"
+    "main.css": "/app-tareas-react/build/static/css/main.957599fa.css",
+    "main.js": "/app-tareas-react/build/static/js/main.57f623bf.js",
+    "index.html": "/app-tareas-react/build/index.html",
+    "main.957599fa.css.map": "/app-tareas-react/build/static/css/main.957599fa.css.map",
+    "main.57f623bf.js.map": "/app-tareas-react/build/static/js/main.57f623bf.js.map"
   },
   "entrypoints": [
     "static/css/main.957599fa.css",
