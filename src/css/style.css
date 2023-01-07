@@ -21,11 +21,12 @@ input{
 }
 ul{
     width: 100%;
-    height: auto;
+    height: 60vh;
     list-style-type: none;
     /* background-color: rgb(204, 204, 204); */
     padding: 20px;;
     border-radius: 20px;;
+    overflow: hidden;
 
 }
 ul > h2{
@@ -58,7 +59,7 @@ ul li p{
 }
 .completa{
     color: rgb(75, 75, 75);
-    font-size: 35px;
+    font-size: 30px;
     width: 5%;
     
     
@@ -80,6 +81,7 @@ ul li p{
     background: rgb(255, 131, 30);
     border-radius: 50%;
     border:none;
+    font-size: 50px;
     margin: 40px 0px 0px 0px;
     float: right;
     position: relative;
@@ -88,11 +90,11 @@ ul li p{
     
 }
 .abrirModal{
-    font-size: 35px;
-    margin: 0px;
+    
     transition: all 0.2s;
 }
 .cerrarModal{
+    font-size: 40px;
     transform: rotate(45deg);
 }
 .modalBackground{
@@ -118,7 +120,7 @@ ul li p{
     font-size: 30px;;
 }
 .formulario .cerrar{
-    margin-right: 50px;
+    margin-right: 20px;
     background-color:rgb(255, 68, 68);
 }
 .formulario> textarea{
